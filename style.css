@@ -1,0 +1,140 @@
+
+/* Basics */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Navigation Header*/
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  border: solid;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: 2rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+nav-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 20px;
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: white;
+  
+}
+
+nav a:hover {
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: gray; 
+  
+}
+
+/*Sections*/
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  border:solid;
+}
+
+/*Profile Section*/
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.profile-container .hola {
+  font-size: 2rem;
+  color: lightslategray;
+}
+
+.profile-container .name {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 2rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.profile-container button {
+  margin-top: 20px;
+  padding: .7rem 1rem;
+  border: 2px solid;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+
+
+.profile-container button:hover {
+  transition: all 0.3s ease;
+}
+
+.profile-container .button1 {
+  background-color: lightslategray;
+  color: white;
+  border-color: lightslategray;
+}
+.profile-container .button1:hover {
+  background-color: white;
+  color: lightslategray;
+}
+
+.profile-container .button2 {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+.profile-container .button2:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
