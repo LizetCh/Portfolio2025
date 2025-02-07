@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Liz | Portafolio </title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
   <script src="script.js"></script>
+
 </head>
 <body>
   
@@ -21,6 +24,7 @@
   </header>
 
   <!--Sections-->
+  <!--Profile section-->
   <section id="profile">
     <div class="profile-container">
       <p class="hola">¡Hola!</p>
@@ -33,24 +37,89 @@
         <a href="https://drive.google.com/file/d/1zOafJ_OZ62s_QjxpE1U0ngq_BNF0kTB0/view?usp=sharing" target="_blank"> <button class="button1" >Descargar CV</button> </a>
         <a href="#contact"><button class="button2">Contáctame</button></a>
       </div>
+      <div class="socials-container">
+        <img src="img/linkedin.png" alt="linkedin" onclick="location.href = 'https://www.linkedin.com/in/lizet-cauich/'"> 
+        <img src="img/github.png" alt="github" onclick="location.href = 'https://github.com/LizetCh'">
+      </div>
     </div>
     
   </section>
 
+  <!--about section-->
   <section id="about">
-    <div class="container">
-      <h1>Sobre mí</h1>
-      <p>Estudiante de Tecnologías de Información; apasionada por el diseño visual, la lógica detrás del código y la gestión de proyectos. Destaco por mi capacidad para aprender rápidamente, trabajar en equipo y liderar proyectos de manera efectiva. </p>
+    <div class="about-container">
+        <div class="about-img-container">
+          <img src="img/profileImage.png" 
+          alt="Foto de perfil"
+          class="about-img">
+        </div>  
+      <div class="about-info-container">
+        <h1>Sobre mí</h1>
+        <p>Estudiante de Tecnologías de Información; apasionada por el diseño visual, la lógica detrás del código y la gestión de proyectos. Destaco por mi capacidad para aprender rápidamente, trabajar en equipo y liderar proyectos de manera efectiva. </p>
+      </div>
     </div>
   </section>
 
+  
+
+  <section id="tools">
+    <div class="tools-section-container">
+      <h1>Tecnologías y Herramientas</h1>
+      <div class="tools-container">
+        <div class="tool">
+          <i class="devicon-html5-plain colored"></i>
+          <p>HTML</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-css3-plain colored"></i>
+          <p>CSS</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-python-plain colored"></i>
+          <p>Python</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-java-plain colored"></i>
+          <p>Java</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-c-plain colored"></i>
+          <p>C</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-mysql-plain colored"></i>
+          <p>SQL</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-postgresql-plain colored"></i>
+          <p>PostgreSQL</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-mongodb-plain colored"></i>
+          <p>MongoDB</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-vscode-plain colored"></i>
+          <p>VS Code</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-git-plain colored"></i>
+          <p>Git</p>
+        </div>
+        <div class="tool">
+          <i class="devicon-github-original"></i>
+          <p>GitHub</p>
+        </div>
+      </div>
+    </div>
+    
+
+  </section>
+  
   <section id="projects">
     <h1>Mis Proyectos</h1>
   </section>
 
-  <section id="tools">
-    <h1>Herramientas</h1>
-  </section>
 
   <section id="contact">
     <h1>Contacto</h1>

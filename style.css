@@ -109,8 +109,6 @@ section {
   border-radius: 30px;
 }
 
-
-
 .profile-container button:hover {
   transition: all 0.3s ease;
 }
@@ -134,6 +132,92 @@ section {
   background-color: white;
   color: black;
 }
+
+.socials-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.socials-container img {
+  height: 2.5rem;
+}
+
+/*About Section*/
+.about-img-container {
+  height: 30vh;
+  min-width: 30vh;
+  display:flex;
+  justify-content: center;
+  border: solid;
+  border-width: 0.2rem;
+  border-color: lightslategray;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about-img {
+  margin-top: 4rem;
+  height: 170%;
+  align-self: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 60%;
+}
+
+.about-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-info-container h1 {
+  font-size: 2rem;
+  color: lightslategray;
+}
+
+/*tools section*/
+.tools-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  gap: 1rem;
+}
+
+.tools-section-container h1 {
+  font-size: 2rem;
+  color: lightslategray;
+}
+
+.tools-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 15vh;
+  width: 80%;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: .5rem;
+}
+
+.tool i {
+  font-size: 3rem;
+}
+
+
 
 
 
